@@ -1,0 +1,36 @@
+button {
+  cursor: pointer;
+}
+/**********/
+
+body {
+  background-color: #f8f9fa;
+}
+
+#tagList {
+  display: flex;
+  align-items: center;
+}
+
+#tagInput {
+  border: none;
+  background: none;
+}
+
+#tagInput:focus {
+  outline: none;
+}
+
+.tagButton {
+  border: none;
+  border-radius: 15px;
+
+  padding: 0 13px;
+  margin: 0 10px;
+  color: rgb(54, 190, 156);
+  background-color: rgb(241, 241, 241);
+
+  height: 30px;
+
+  font-weight: bold;
+}
