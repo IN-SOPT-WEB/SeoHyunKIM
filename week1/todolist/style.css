@@ -1,0 +1,112 @@
+body {
+  width: 800px;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* header */
+
+header {
+  height: 8%;
+  background-color: #ff9e9b;
+}
+
+/* nav */
+
+nav {
+  border-bottom: solid 1px black;
+  height: 8%;
+
+  display: flex;
+  place-items: center;
+  justify-content: center;
+}
+
+nav button {
+  height: 25px;
+
+  margin-left: 3px;
+  margin-right: 3px;
+
+  border: none;
+  background-color: #ffd0cd;
+}
+
+/* section */
+
+.section {
+  display: flex;
+  height: 79%;
+}
+
+.left-section {
+  border-right: solid 1.5px black;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  padding: 20px 25px;
+}
+
+section h2 {
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+/* list */
+
+ul {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  word-break: break-all;
+
+  font-size: 14px;
+
+  height: 45px;
+  border-bottom: dashed 1px #585353;
+
+  margin: 20px 10px;
+  padding: 0 5px;
+}
+
+li button {
+  border: none;
+  background: none;
+}
+
+/* add_list */
+
+.add {
+  margin-top: auto;
+  margin-bottom: 10px;
+}
+
+section input {
+  box-sizing: border-box;
+  width: 85%;
+}
+
+section button {
+  box-sizing: border-box;
+  width: 15%;
+}
+
+/* footer */
+
+footer {
+  height: 5%;
+  border-top: solid 1px black;
+  background-color: #ff9e9b;
+}
