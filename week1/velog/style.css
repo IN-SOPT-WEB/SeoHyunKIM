@@ -1,0 +1,327 @@
+body {
+  width: 1024px;
+  margin: 0 auto;
+  background-color: #f8f9fa;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* header */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  height: 50px;
+  width: 100%;
+}
+
+h1 {
+  font-size: 25px;
+  cursor: pointer;
+}
+
+header div {
+  display: flex;
+  align-items: center;
+}
+
+header button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-left: 10px;
+  padding: 0;
+
+  background: none;
+}
+
+header i {
+  font-size: 20px;
+}
+
+#mode:hover,
+#search:hover {
+  background-color: rgb(234, 232, 232);
+  border-radius: 50%;
+}
+
+#mode,
+#search {
+  width: 30px;
+  height: 30px;
+
+  border: none;
+}
+
+#profile {
+  height: 30px;
+  border: none;
+}
+
+#newPost {
+  width: 90px;
+  height: 25px;
+  border: 1px solid black;
+  border-radius: 15px;
+}
+
+#newPost:hover {
+  background-color: black;
+  color: white;
+}
+
+#profile img {
+  height: 32px;
+  margin-right: 5px;
+  border-radius: 15px;
+}
+
+#profile svg {
+  color: #868e96;
+  width: 17px;
+  height: 17px;
+}
+
+/* nav */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  height: 35px;
+  margin: 20px 0;
+}
+
+nav div {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+nav > button {
+  display: flex;
+  align-items: center;
+
+  background: none;
+  border: 0;
+}
+
+.category {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 90px;
+  height: 100%;
+
+  border: 0;
+  background: none;
+
+  color: #868e96;
+}
+
+#trend {
+  border-bottom: 2px solid black;
+  font-weight: bold;
+  color: black;
+}
+
+.category i {
+  font-size: 20px;
+  margin-right: 5px;
+}
+
+nav div button:nth-child(3) {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  height: 25px;
+  width: 75px;
+  font-size: 11px;
+
+  border: 0;
+  padding: 0 8px;
+  background-color: white;
+}
+
+nav svg {
+  width: 17px;
+  height: 17px;
+}
+
+/* card-section */
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+
+  box-sizing: border-box;
+
+  width: 240px;
+  height: 300px;
+
+  margin: 12px 0;
+  background-color: white;
+
+  cursor: pointer;
+
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+/* card image */
+
+article img {
+  height: 43.5%;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+/* card content */
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  height: 43.5%;
+
+  border-bottom: 1px solid #f1f3f5;
+  padding: 13px;
+}
+
+.content h2 {
+  font-size: 12px;
+  font-weight: bold;
+
+  margin-bottom: 10px;
+}
+
+.content div p {
+  font-size: 11px;
+  margin: 5px 0;
+}
+
+.content > p {
+  color: #868e96;
+  font-size: 10px;
+}
+
+/* card writer */
+
+.writer {
+  display: flex;
+  justify-content: space-between;
+
+  height: 13%;
+  padding: 0 13px;
+}
+
+.writer div {
+  display: flex;
+  align-items: center;
+
+  font-size: 10px;
+}
+
+.writer img {
+  width: 20px;
+  height: 20px;
+  margin-right: 6px;
+  border-radius: 15px;
+}
+
+.writer svg {
+  width: 10px;
+  margin-right: 5px;
+}
+
+.writer_name {
+  font-weight: bold;
+}
+
+/* 심화 과제 */
+
+@media (max-width: 1024px) {
+  body {
+    width: 800px;
+  }
+
+  article {
+    width: 250px;
+    height: 310px;
+  }
+}
+
+@media (max-width: 825px) {
+  body {
+    width: 94vw;
+  }
+
+  article {
+    width: 45vw;
+    height: 48vw;
+  }
+
+  article img {
+    height: 50%;
+  }
+
+  #newPost {
+    display: none;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 750px) {
+  .category {
+    width: 65px;
+    font-size: 11px;
+  }
+
+  .category i {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 610px) {
+  body {
+    width: 93vw;
+  }
+
+  section {
+    justify-content: center;
+  }
+
+  article {
+    width: 93vw;
+    height: 70vw;
+  }
+
+  article img {
+    height: 65%;
+  }
+}
+
+article:hover {
+  transform: translate(0, -6px);
+  transition-duration: 0.6s;
+
+  box-shadow: 0px 10px 15px -10px gray;
+}

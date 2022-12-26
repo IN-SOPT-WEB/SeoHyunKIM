@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../reset.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <title>Velog</title>
+  </head>
+  <body>
+    <header>
+      <h1>Velog</h1>
+      <div>
+        <button id="mode">
+          <i class="material-icons">light_mode</i>
+        </button>
+        <button id="search">
+          <i class="material-icons">search</i>
+        </button>
+        <button id="newPost">새 글 작성</button>
+        <button id="profile">
+          <img
+            src="https://velog.velcdn.com/images/seobbang/profile/ee529efa-af31-4a3a-ad64-3cec6a0670e0/social.png"
+          />
+          <svg
+            stroke="currentColor"
+            fill="currentColor"
+            stroke-width="0"
+            viewBox="0 0 24 24"
+            height="1em"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path d="M7 10l5 5 5-5z"></path>
+          </svg>
+        </button>
+      </div>
+    </header>
+    <nav>
+      <div>
+        <button class="category" id="trend">
+          <i class="material-icons">trending_up</i>
+          <span>트렌딩</span>
+        </button>
+        <button class="category" id="clock">
+          <i class="material-icons">schedule</i>
+          <span>최신</span>
+        </button>
+        <button>
+          이번 주
+          <svg
+            stroke="currentColor"
+            fill="currentColor"
+            stroke-width="0"
+            viewBox="0 0 24 24"
+            height="1em"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path d="M7 10l5 5 5-5z"></path>
+          </svg>
+        </button>
+      </div>
+      <button>
+        <i class="material-icons" style="color: #868e96; font-size: 20px">
+          more_vert
+        </i>
+      </button>
+    </nav>
+
+    <section>
+      <article class="card">
+        <img
+          src="https://velog.velcdn.com/images/seobbang/post/fa449b08-e460-47bc-b02e-9db1133ee2c0/image.webp"
+          alt="post-thumbnail"
+        />
+        <div class="content">
+          <div>
+            <h2>솝트 1주차 과제 (HTML)</h2>
+            <p>벨로그 클론 코딩</p>
+          </div>
+          <p>6일 전 . 8개의 댓글</p>
+        </div>
+        <div class="writer">
+          <div>
+            <img
+              src="https://velog.velcdn.com/images/seobbang/profile/ee529efa-af31-4a3a-ad64-3cec6a0670e0/social.png"
+            />
+            <p>by <span class="writer_name">seohyun</span></p>
+          </div>
+          <div>
+            <svg width="24" height="24" viewBox="0 0 24 24">
+              <path
+                fill="currentColor"
+                d="M18 1l-6 4-6-4-6 5v7l12 10 12-10v-7z"
+              ></path>
+            </svg>
+            71
+          </div>
+        </div>
+      </article>
+      <article class="card">
+        <img
+          src="https://velog.velcdn.com/images/seobbang/post/8fa5aae6-1c7f-4c1c-a383-f1e9f53fdb0c/image.png"
+          alt="post-thumbnail"
+        />
+        <div class="content">
+          <div>
+            <h2>솝트 1주차 과제 (CSS)</h2>
+            <p>벨로그 클론 코딩</p>
+          </div>
+          <p>6일 전 . 8개의 댓글</p>
+        </div>
+        <div class="writer">
+          <div>
+            <img
+              src="https://velog.velcdn.com/images/seobbang/profile/ee529efa-af31-4a3a-ad64-3cec6a0670e0/social.png"
+            />
+            <p>by <span class="writer_name">seohyun</span></p>
+          </div>
+          <div>
+            <svg width="24" height="24" viewBox="0 0 24 24">
+              <path
+                fill="currentColor"
+                d="M18 1l-6 4-6-4-6 5v7l12 10 12-10v-7z"
+              ></path>
+            </svg>
+            71
+          </div>
+        </div>
+      </article>
+      <article class="card">
+        <img
+          src="https://velog.velcdn.com/images/seobbang/post/fa449b08-e460-47bc-b02e-9db1133ee2c0/image.webp"
+          alt="post-thumbnail"
+        />
+        <div class="content">
+          <div>
+            <h2>솝트 1주차 과제 (HTML)</h2>
+            <p>벨로그 클론 코딩</p>
+          </div>
+          <p>6일 전 . 8개의 댓글</p>
+        </div>
+        <div class="writer">
+          <div>
+            <img
+              src="https://velog.velcdn.com/images/seobbang/profile/ee529efa-af31-4a3a-ad64-3cec6a0670e0/social.png"
+            />
+            <p>by <span class="writer_name">seohyun</span></p>
+          </div>
+          <div>
+            <svg width="24" height="24" viewBox="0 0 24 24">
+              <path
+                fill="currentColor"
+                d="M18 1l-6 4-6-4-6 5v7l12 10 12-10v-7z"
+              ></path>
+            </svg>
+            71
+          </div>
+        </div>
+      </article>
+      <article class="card">
+        <img
+          src="https://velog.velcdn.com/images/seobbang/post/8fa5aae6-1c7f-4c1c-a383-f1e9f53fdb0c/image.png"
+          alt="post-thumbnail"
+        />
+        <div class="content">
+          <div>
+            <h2>솝트 1주차 과제 (CSS)</h2>
+            <p>벨로그 클론 코딩</p>
+          </div>
+          <p>6일 전 . 8개의 댓글</p>
+        </div>
+        <div class="writer">
+          <div>
+            <img
+              src="https://velog.velcdn.com/images/seobbang/profile/ee529efa-af31-4a3a-ad64-3cec6a0670e0/social.png"
+            />
+            <p>by <span class="writer_name">seohyun</span></p>
+          </div>
+          <div>
+            <svg width="24" height="24" viewBox="0 0 24 24">
+              <path
+                fill="currentColor"
+                d="M18 1l-6 4-6-4-6 5v7l12 10 12-10v-7z"
+              ></path>
+            </svg>
+            71
+          </div>
+        </div>
+      </article>
+      <article class="card">
+        <img
+          src="https://velog.velcdn.com/images/seobbang/post/fa449b08-e460-47bc-b02e-9db1133ee2c0/image.webp"
+          alt="post-thumbnail"
+        />
+        <div class="content">
+          <div>
+            <h2>솝트 1주차 과제 (HTML)</h2>
+            <p>벨로그 클론 코딩</p>
+          </div>
+          <p>6일 전 . 8개의 댓글</p>
+        </div>
+        <div class="writer">
+          <div>
+            <img
+              src="https://velog.velcdn.com/images/seobbang/profile/ee529efa-af31-4a3a-ad64-3cec6a0670e0/social.png"
+            />
+            <p>by <span class="writer_name">seohyun</span></p>
+          </div>
+          <div>
+            <svg width="24" height="24" viewBox="0 0 24 24">
+              <path
+                fill="currentColor"
+                d="M18 1l-6 4-6-4-6 5v7l12 10 12-10v-7z"
+              ></path>
+            </svg>
+            71
+          </div>
+        </div>
+      </article>
+      <article class="card">
+        <img
+          src="https://velog.velcdn.com/images/seobbang/post/8fa5aae6-1c7f-4c1c-a383-f1e9f53fdb0c/image.png"
+          alt="post-thumbnail"
+        />
+        <div class="content">
+          <div>
+            <h2>솝트 1주차 과제 (CSS)</h2>
+            <p>벨로그 클론 코딩</p>
+          </div>
+          <p>6일 전 . 8개의 댓글</p>
+        </div>
+        <div class="writer">
+          <div>
+            <img
+              src="https://velog.velcdn.com/images/seobbang/profile/ee529efa-af31-4a3a-ad64-3cec6a0670e0/social.png"
+            />
+            <p>by <span class="writer_name">seohyun</span></p>
+          </div>
+          <div>
+            <svg width="24" height="24" viewBox="0 0 24 24">
+              <path
+                fill="currentColor"
+                d="M18 1l-6 4-6-4-6 5v7l12 10 12-10v-7z"
+              ></path>
+            </svg>
+            71
+          </div>
+        </div>
+      </article>
+      <article class="card">
+        <img
+          src="https://velog.velcdn.com/images/seobbang/post/fa449b08-e460-47bc-b02e-9db1133ee2c0/image.webp"
+          alt="post-thumbnail"
+        />
+        <div class="content">
+          <div>
+            <h2>솝트 1주차 과제 (HTML)</h2>
+            <p>벨로그 클론 코딩</p>
+          </div>
+          <p>6일 전 . 8개의 댓글</p>
+        </div>
+        <div class="writer">
+          <div>
+            <img
+              src="https://velog.velcdn.com/images/seobbang/profile/ee529efa-af31-4a3a-ad64-3cec6a0670e0/social.png"
+            />
+            <p>by <span class="writer_name">seohyun</span></p>
+          </div>
+          <div>
+            <svg width="24" height="24" viewBox="0 0 24 24">
+              <path
+                fill="currentColor"
+                d="M18 1l-6 4-6-4-6 5v7l12 10 12-10v-7z"
+              ></path>
+            </svg>
+            71
+          </div>
+        </div>
+      </article>
+      <article class="card">
+        <img
+          src="https://velog.velcdn.com/images/seobbang/post/8fa5aae6-1c7f-4c1c-a383-f1e9f53fdb0c/image.png"
+          alt="post-thumbnail"
+        />
+        <div class="content">
+          <div>
+            <h2>솝트 1주차 과제 (CSS)</h2>
+            <p>벨로그 클론 코딩</p>
+          </div>
+          <p>6일 전 . 8개의 댓글</p>
+        </div>
+        <div class="writer">
+          <div>
+            <img
+              src="https://velog.velcdn.com/images/seobbang/profile/ee529efa-af31-4a3a-ad64-3cec6a0670e0/social.png"
+            />
+            <p>by <span class="writer_name">seohyun</span></p>
+          </div>
+          <div>
+            <svg width="24" height="24" viewBox="0 0 24 24">
+              <path
+                fill="currentColor"
+                d="M18 1l-6 4-6-4-6 5v7l12 10 12-10v-7z"
+              ></path>
+            </svg>
+            71
+          </div>
+        </div>
+      </article>
+      <article class="card">
+        <img
+          src="https://velog.velcdn.com/images/seobbang/post/fa449b08-e460-47bc-b02e-9db1133ee2c0/image.webp"
+          alt="post-thumbnail"
+        />
+        <div class="content">
+          <div>
+            <h2>솝트 1주차 과제 (HTML)</h2>
+            <p>벨로그 클론 코딩</p>
+          </div>
+          <p>6일 전 . 8개의 댓글</p>
+        </div>
+        <div class="writer">
+          <div>
+            <img
+              src="https://velog.velcdn.com/images/seobbang/profile/ee529efa-af31-4a3a-ad64-3cec6a0670e0/social.png"
+            />
+            <p>by <span class="writer_name">seohyun</span></p>
+          </div>
+          <div>
+            <svg width="24" height="24" viewBox="0 0 24 24">
+              <path
+                fill="currentColor"
+                d="M18 1l-6 4-6-4-6 5v7l12 10 12-10v-7z"
+              ></path>
+            </svg>
+            71
+          </div>
+        </div>
+      </article>
+      <article class="card">
+        <img
+          src="https://velog.velcdn.com/images/seobbang/post/8fa5aae6-1c7f-4c1c-a383-f1e9f53fdb0c/image.png"
+          alt="post-thumbnail"
+        />
+        <div class="content">
+          <div>
+            <h2>솝트 1주차 과제 (CSS)</h2>
+            <p>벨로그 클론 코딩</p>
+          </div>
+          <p>6일 전 . 8개의 댓글</p>
+        </div>
+        <div class="writer">
+          <div>
+            <img
+              src="https://velog.velcdn.com/images/seobbang/profile/ee529efa-af31-4a3a-ad64-3cec6a0670e0/social.png"
+            />
+            <p>by <span class="writer_name">seohyun</span></p>
+          </div>
+          <div>
+            <svg width="24" height="24" viewBox="0 0 24 24">
+              <path
+                fill="currentColor"
+                d="M18 1l-6 4-6-4-6 5v7l12 10 12-10v-7z"
+              ></path>
+            </svg>
+            71
+          </div>
+        </div>
+      </article>
+      <article class="card">
+        <img
+          src="https://velog.velcdn.com/images/seobbang/post/fa449b08-e460-47bc-b02e-9db1133ee2c0/image.webp"
+          alt="post-thumbnail"
+        />
+        <div class="content">
+          <div>
+            <h2>솝트 1주차 과제 (HTML)</h2>
+            <p>벨로그 클론 코딩</p>
+          </div>
+          <p>6일 전 . 8개의 댓글</p>
+        </div>
+        <div class="writer">
+          <div>
+            <img
+              src="https://velog.velcdn.com/images/seobbang/profile/ee529efa-af31-4a3a-ad64-3cec6a0670e0/social.png"
+            />
+            <p>by <span class="writer_name">seohyun</span></p>
+          </div>
+          <div>
+            <svg width="24" height="24" viewBox="0 0 24 24">
+              <path
+                fill="currentColor"
+                d="M18 1l-6 4-6-4-6 5v7l12 10 12-10v-7z"
+              ></path>
+            </svg>
+            71
+          </div>
+        </div>
+      </article>
+      <article class="card">
+        <img
+          src="https://velog.velcdn.com/images/seobbang/post/8fa5aae6-1c7f-4c1c-a383-f1e9f53fdb0c/image.png"
+          alt="post-thumbnail"
+        />
+        <div class="content">
+          <div>
+            <h2>솝트 1주차 과제 (CSS)</h2>
+            <p>벨로그 클론 코딩</p>
+          </div>
+          <p>6일 전 . 8개의 댓글</p>
+        </div>
+        <div class="writer">
+          <div>
+            <img
+              src="https://velog.velcdn.com/images/seobbang/profile/ee529efa-af31-4a3a-ad64-3cec6a0670e0/social.png"
+            />
+            <p>by <span class="writer_name">seohyun</span></p>
+          </div>
+          <div>
+            <svg width="24" height="24" viewBox="0 0 24 24">
+              <path
+                fill="currentColor"
+                d="M18 1l-6 4-6-4-6 5v7l12 10 12-10v-7z"
+              ></path>
+            </svg>
+            71
+          </div>
+        </div>
+      </article>
+    </section>
+  </body>
+</html>
